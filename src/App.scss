@@ -1,0 +1,18 @@
+.app-container {
+  display: flex;
+  align-items: flex-start; /* Impede esticamento vertical */
+  padding-top: 24px;        /* Dá um respiro no topo */
+  gap: 20px;
+}
+
+.products-main {
+  flex-grow: 1;
+  padding: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: flex-start;
+  align-content: flex-start; /* Impede que os produtos estiquem a altura */
+  background: #fff;
+  min-height: auto;          /* Deixa a altura natural, conforme o conteúdo */
+}

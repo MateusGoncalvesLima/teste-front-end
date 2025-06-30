@@ -1,0 +1,36 @@
+.category-filter {
+  width: 220px;
+  background: #fff;
+  border-right: 1px solid #ddd;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.05);
+}
+
+.category-filter h3 {
+  margin-bottom: 16px;
+  font-weight: 700;
+  color: #5a2d82;
+}
+
+.category-filter ul {
+  list-style: none;
+  padding: 0;
+}
+
+.category-filter li {
+  padding: 8px 12px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+.category-filter li:hover {
+  background: #f0e6ff;
+}
+
+.category-filter li.selected {
+  background: #5a2d82;
+  color: #fff;
+  font-weight: 700;
+}

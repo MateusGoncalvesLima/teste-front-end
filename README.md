@@ -16,7 +16,7 @@ Este projeto foi desenvolvido como parte do processo seletivo para a vaga de **E
 1. **Clone o repositório:**
 
 ```bash
-git clone https://github.com/seu-usuario/teste-front-end.git
+git clone https://github.com/MateusGoncalvesLima/teste-front-end.git
 cd teste-front-end
 
 2. **instale as dependências:**

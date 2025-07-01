@@ -25,6 +25,8 @@ npm install
 
 3. **inicie o servidor de desenvolvimento:**
 
+npm run dev
+
 4. **Acesse pelo navegador:**
 
 http://localhost:5173/
@@ -49,7 +51,17 @@ http://localhost:5173/
     ├── styles/
     │ └── Global.scss
     
+✅ Funcionalidades
 
+.Vitrine com produtos vindos de API
+
+.Filtro por categoria com destaque visual
+
+.Modal com detalhes do produto
+
+.Botão "Comprar" visual
+
+.Estilo fiel ao layout do Figma (com adaptações visuais)
 
 
 🧠 Projeto desenvolvido com dedicação e aprendizado contínuo. Obrigado pela oportunidade!

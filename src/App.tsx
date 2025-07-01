@@ -36,9 +36,9 @@ export default function App() {
     setModalProduct(null);
   };
 
-  // Função vazia para o botão comprar (não faz nada por enquanto)
+  
   const handleBuyClick = (_product: Product) => {
-    // Aqui você pode futuramente adicionar lógica de carrinho ou checkout
+    
   };
 
   return (
@@ -63,7 +63,7 @@ export default function App() {
       <ProductModal
         product={modalProduct}
         onClose={handleCloseModal}
-        onBuyClick={handleBuyClick} // ✅ Linha que faltava!
+        onBuyClick={handleBuyClick} 
       />
     </div>
   );

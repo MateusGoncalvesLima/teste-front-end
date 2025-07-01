@@ -6,7 +6,7 @@ type Props = {
   onSelectCategory: (category: string) => void;
 };
 
-// Função para traduzir nomes de categorias do inglês para o português
+
 function traduzirCategoria(category: string): string {
   switch (category) {
     case 'electronics':
